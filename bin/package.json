@@ -1,0 +1,41 @@
+{
+    "name": "@slothfi/default-token-list",
+    "version": "1.0.0",
+    "description": "Token List for LazyBones",
+    "main": "build/slothfi-default.tokenlist.json",
+    "scripts": {
+        "test": "jest",
+        "prepublishOnly": "npm test && npm run build",
+        "build": "rimraf build && rimraf bin && tsc && mkdir -p build && node bin/src/index.js > build/slothfi-default.tokenlist.json",
+        "start": "npm run build -- -w"
+    },
+    "author": "0xGhosty",
+    "files": [
+        "build/slothfi-default.tokenlist.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/slothfi/slothfi-default-token-list.git"
+    },
+    "bugs": {
+        "url": "https://github.com/slothfi/slothfi-default-token-list/issues"
+    },
+    "homepage": "https://github.com/slothfi/slothfi-default-token-list#readme",
+    "license": "ISC",
+    "dependencies": {
+        "@ethersproject/address": "^5.5.0",
+        "babel-jest": "^27.3.1",
+        "jest": "^27.3.1",
+        "ts-jest": "^27.0.7"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.22",
+        "@types/jest": "^27.0.2",
+        "@types/mocha": "^9.0.0",
+        "chai": "^4.3.4",
+        "mocha": "^9.1.3",
+        "nyc": "^15.1.0",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.4.4"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "SlothFi Default",
+  "timestamp": "2021-11-07T13:38:13.099Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://res.cloudinary.com/slothfinance/image/upload/v1636287070/128x128_nzhzog.png",
+  "keywords": [
+    "slothfi",
+    "default"
+  ],
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a",
+      "symbol": "WONE",
+      "name": "Wrapped ONE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/4344/small/Y88JAze.png"
+    }
+  ]
+}

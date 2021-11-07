@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slothfi/slothfi-default-token-list.git"
+    "url": "git+https://github.com/slothfi/default-token-list.git"
   },
   "bugs": {
-    "url": "https://github.com/slothfi/slothfi-default-token-list/issues"
+    "url": "https://github.com/slothfi/default-token-list/issues"
   },
-  "homepage": "https://github.com/slothfi/slothfi-default-token-list#readme",
+  "homepage": "https://github.com/slothfi/default-token-list#readme",
   "license": "ISC",
   "dependencies": {
     "@ethersproject/address": "^5.5.0",
