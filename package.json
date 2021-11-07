@@ -1,6 +1,6 @@
 {
   "name": "@slothfi/default-token-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Token List for LazyBones",
   "main": "build/slothfi-default.tokenlist.json",
   "scripts": {
